@@ -13,7 +13,7 @@ public class Main {
 		Logger logger = Logger.getRootLogger();
 		logger.debug("hallo world");
 
-		User u1 = new User("jordan");
+		User u1 = new User("jordan2");
 
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpa-data");
 		EntityManager em = emf.createEntityManager();
